@@ -127,9 +127,11 @@ const PopUp = ({ popUp }) => {
         popUp ? "flex" : "hidden"
       } absolute w-full h-full top-0 left-0 bg-black/50 flex items-center justify-center`}
     >
-      <div className="message bg-white w-5/12 h-3/6  rounded-2xl flex items-center flex-col justify-center gap-6 shadow-2xl">
+      <div className="message bg-white w-11/12 lg:w-5/12 h-3/6 rounded-2xl flex items-center flex-col justify-center gap-6 shadow-2xl">
         <BiSolidHappyBeaming size={60} className="text-yellow-500" />
-        <h2 className="text-2xl">شكرا لك اتمني ان تكون استمتعت بالعرض</h2>
+        <h2 className="text-lg text-center lg:text-2xl">
+          شكرا لك اتمني ان تكون استمتعت بالعرض
+        </h2>
         <div className="btn flex justify-center w-full gap-5">
           <button
             onClick={() => {
