@@ -102,7 +102,7 @@ function App() {
       <div className="btn flex gap-5">
         <button
           onClick={HandleClick}
-          className="text-lg text-white bg-green-500 w-[200px] py-2 "
+          className="text-lg text-white bg-green-500 px-6 py-2 "
         >
           ارسل
         </button>
@@ -111,7 +111,7 @@ function App() {
             setChoose([]);
             setError();
           }}
-          className="text-lg text-white bg-red-500 w-[200px] py-2 "
+          className="text-lg text-white bg-red-500 px-6 py-2 "
         >
           مسح الاجابات
         </button>
